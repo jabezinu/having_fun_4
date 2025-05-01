@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#8B5A2B"/>
+  <text x="50%" y="50%" font-family="Arial" font-size="40" fill="#fff" text-anchor="middle" dominant-baseline="middle">Harmeko Coffee Hero Image</text>
+  <path d="M600 300 Q 650 250, 700 300 T 800 300 T 900 300 T 1000 300" stroke="#fff" stroke-width="3" fill="none"/>
+  <path d="M600 350 Q 650 300, 700 350 T 800 350 T 900 350 T 1000 350" stroke="#fff" stroke-width="3" fill="none"/>
+  <circle cx="600" cy="450" r="50" fill="#D4AF37" opacity="0.7"/>
+  <circle cx="750" cy="500" r="40" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="900" cy="450" r="60" fill="#D4AF37" opacity="0.6"/>
+</svg>

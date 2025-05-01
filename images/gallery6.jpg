@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#F5DEB3"/>
+  <text x="50%" y="50%" font-family="Arial" font-size="24" fill="#8B5A2B" text-anchor="middle" dominant-baseline="middle">Coffee and Pastry</text>
+  <circle cx="250" cy="200" r="70" fill="#8B5A2B" opacity="0.7"/>
+  <rect x="350" y="150" width="100" height="100" rx="10" ry="10" fill="#D4AF37" opacity="0.7"/>
+  <path d="M250 170 Q 300 150, 350 170" stroke="#A67C52" stroke-width="3" fill="none"/>
+  <path d="M250 230 Q 300 250, 350 230" stroke="#A67C52" stroke-width="3" fill="none"/>
+  <circle cx="250" cy="200" r="40" fill="#A67C52" opacity="0.8"/>
+  <rect x="370" y="170" width="60" height="60" rx="5" ry="5" fill="#C49A6C" opacity="0.8"/>
+  <line x1="350" y1="150" x2="450" y2="250" stroke="#fff" stroke-width="2"/>
+  <line x1="350" y1="250" x2="450" y2="150" stroke="#fff" stroke-width="2"/>
+</svg>
