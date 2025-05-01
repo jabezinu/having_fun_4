@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmeko Coffee | Premium Coffee Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Harmeko</h1>
+                <p>COFFEE</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Exquisite Coffee Experience</h1>
+                <p>Indulge in our artisanal coffee creations, crafted with precision and passion.</p>
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="Harmeko Coffee Interior">
+                </div>
+                <div class="about-text">
+                    <h3>A Passion for Excellence</h3>
+                    <p>Founded in 2015, Harmeko Coffee was born from a deep passion for exceptional coffee and a desire to create an elegant space where coffee enthusiasts can experience the finest brews in a sophisticated atmosphere.</p>
+                    <p>Our master baristas are trained in the art and science of coffee preparation, ensuring each cup is a masterpiece of flavor and presentation. We source our beans directly from sustainable farms around the world, maintaining close relationships with growers who share our commitment to quality and ethical practices.</p>
+                    <a href="#" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="menu-categories">
+                <button class="menu-category active" data-category="signature">Signature Drinks</button>
+                <button class="menu-category" data-category="espresso">Espresso</button>
+                <button class="menu-category" data-category="brew">Pour Over</button>
+                <button class="menu-category" data-category="pastries">Pastries</button>
+            </div>
+            <div class="menu-items">
+                <div class="menu-category-items active" id="signature">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Harmeko Gold Latte</h3>
+                            <p>Our signature espresso with velvety steamed milk, infused with vanilla and topped with edible gold flakes.</p>
+                        </div>
+                        <div class="menu-item-price">$8.50</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Lavender Dream</h3>
+                            <p>Espresso blended with house-made lavender syrup, steamed milk, and a touch of honey.</p>
+                        </div>
+                        <div class="menu-item-price">$7.50</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Caramel Silk</h3>
+                            <p>Double espresso with caramel infusion, topped with silky microfoam and caramel drizzle.</p>
+                        </div>
+                        <div class="menu-item-price">$7.00</div>
+                    </div>
+                </div>
+                <div class="menu-category-items" id="espresso">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Espresso</h3>
+                            <p>Single origin espresso, meticulously extracted for perfect crema.</p>
+                        </div>
+                        <div class="menu-item-price">$4.00</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Cappuccino</h3>
+                            <p>Equal parts espresso, steamed milk, and silky microfoam.</p>
+                        </div>
+                        <div class="menu-item-price">$5.50</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Flat White</h3>
+                            <p>Double espresso with velvety microfoam, served in a smaller cup for stronger coffee flavor.</p>
+                        </div>
+                        <div class="menu-item-price">$5.50</div>
+                    </div>
+                </div>
+                <div class="menu-category-items" id="brew">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Ethiopian Yirgacheffe</h3>
+                            <p>Bright, floral notes with hints of citrus and bergamot.</p>
+                        </div>
+                        <div class="menu-item-price">$6.50</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Colombian Supremo</h3>
+                            <p>Rich, full-bodied with notes of caramel and walnut.</p>
+                        </div>
+                        <div class="menu-item-price">$6.00</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Kenyan AA</h3>
+                            <p>Bold, wine-like acidity with blackcurrant and tomato notes.</p>
+                        </div>
+                        <div class="menu-item-price">$6.50</div>
+                    </div>
+                </div>
+                <div class="menu-category-items" id="pastries">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Almond Croissant</h3>
+                            <p>Buttery croissant filled with almond cream and topped with sliced almonds.</p>
+                        </div>
+                        <div class="menu-item-price">$5.50</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Chocolate Hazelnut Tart</h3>
+                            <p>Rich chocolate ganache with hazelnut praline in a shortbread crust.</p>
+                        </div>
+                        <div class="menu-item-price">$6.50</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Vanilla Bean Scone</h3>
+                            <p>Delicate scone infused with vanilla bean, served with clotted cream.</p>
+                        </div>
+                        <div class="menu-item-price">$4.50</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery1.jpg" alt="Coffee Art">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery2.jpg" alt="Coffee Shop Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery3.jpg" alt="Coffee Beans">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery4.jpg" alt="Barista">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery5.jpg" alt="Coffee Preparation">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery6.jpg" alt="Coffee and Pastry">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Elegant Avenue, Luxury District</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Monday - Friday: 7am - 8pm</p>
+                            <p>Saturday - Sunday: 8am - 9pm</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Contact</h3>
+                            <p>Phone: (555) 123-4567</p>
+                            <p>Email: info@harmekocoffee.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Harmeko</h2>
+                    <p>COFFEE</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Harmeko Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
